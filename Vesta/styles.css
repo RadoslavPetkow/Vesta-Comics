@@ -1,10 +1,12 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #140b0ba1;
+
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #140b0bd5;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -12,7 +14,7 @@ header {
 }
 
 .logo {
-    color: rgb(11, 117, 11);
+    color: rgb(226, 219, 18);
     display: flex;
     align-items: center;
     margin-left: 20px;
@@ -25,7 +27,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     margin-right: 10px;
@@ -41,7 +43,7 @@ button {
 }
 
 .buttons {
-    background-color: rgb(11, 117, 11);
+    background-color: rgb(226, 219, 18);
     padding-top: 9px;
     padding-bottom: 9px;
     padding-left: 12px;
@@ -49,7 +51,7 @@ button {
     align-items: center;
     border-radius: 3px;
     font-size: 15px;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -98,5 +100,5 @@ button {
 .text-container p {
     font-size: 14px;
     line-height: 1.5;
-    color: #333;
+    color: #d7d7d7c2;
 }
